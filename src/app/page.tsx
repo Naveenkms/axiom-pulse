@@ -1,7 +1,7 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <main className="text-3xl font-bold underline text-red-400">Hello world</main>
+    <main className="px-1 py-2 text-3xl font-bold text-red-400 underline">
+      Hello world
+    </main>
   );
 }
