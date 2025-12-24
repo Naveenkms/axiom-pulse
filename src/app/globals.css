@@ -39,6 +39,8 @@
   --color-secondary-foreground: var(--secondary-foreground);
 
   --color-primary-stroke: var(--primary-stroke);
+
+  --font-primary: var(--font-geist-sans);
 }
 
 @layer base {

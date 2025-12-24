@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} flex h-screen w-full flex-col bg-background text-foreground antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} font-primary flex h-screen w-full flex-col bg-background text-foreground antialiased`}
       >
         <QueryClientProvider>
           <Header />
