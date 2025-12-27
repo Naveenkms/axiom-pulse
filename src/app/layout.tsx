@@ -3,7 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 
 import QueryClientProvider from "@/components/providers/query-client-provider";
-import Header from "@/components/organisms";
+import Header from "@/components/organisms/header";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} font-primary flex h-screen w-full flex-col bg-background text-foreground antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} flex h-screen w-full flex-col bg-background font-primary text-foreground antialiased`}
       >
         <QueryClientProvider>
           <Header />
